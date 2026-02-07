@@ -16,12 +16,12 @@ Clone this repository into your Claude Code skills directory:
 
 **macOS/Linux:**
 ```bash
-git clone https://github.com/oprogramadorreal/commit-message ~/.claude/skills/commit-message
+git clone https://github.com/oprogramadorreal/commit-message ~/.claude/skills/claude-code-commit-message
 ```
 
 **Windows:**
 ```bash
-git clone https://github.com/oprogramadorreal/commit-message %USERPROFILE%\.claude\skills\commit-message
+git clone https://github.com/oprogramadorreal/commit-message %USERPROFILE%\.claude\skills\claude-code-commit-message
 ```
 
 ## Usage
