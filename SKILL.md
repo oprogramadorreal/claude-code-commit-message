@@ -15,9 +15,6 @@ Generate a conventional commit message by analyzing all local git changes (stage
 Run the following git commands to understand all local changes:
 
 ```bash
-# Recent commits for style reference
-git log --oneline -10
-
 # Staged changes
 git diff --cached --stat
 git diff --cached
@@ -40,7 +37,7 @@ Review the gathered information to understand:
 
 ### 3. Generate Conventional Commit Message
 
-Produce a message following the Conventional Commits specification:
+Always produce a message following the Conventional Commits specification, regardless of the commit style used in the repository:
 
 ```
 <type>(<optional scope>): <description>
@@ -72,5 +69,4 @@ Output the suggested commit message in a copyable code block. Do NOT run `git co
 
 - Never commit, stage, or modify any files
 - This skill is read-only — it only analyzes and suggests
-- Match the commit style observed in the repository's recent history
 - When changes are too broad for a single commit, recommend splitting

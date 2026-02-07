@@ -6,7 +6,6 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that analy
 
 - Analyzes staged, unstaged, and untracked changes
 - Generates messages following the Conventional Commits spec
-- Matches the commit style already used in your repository
 - Suggests splitting into multiple commits when changes span different concerns
 - Read-only — never stages, commits, or modifies files
 
