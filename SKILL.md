@@ -60,6 +60,7 @@ Always produce a message following the Conventional Commits specification, regar
 - Use imperative mood ("Add feature" not "Added feature")
 - Add a body only when the subject line alone is insufficient to explain the change
 - If changes span multiple concerns, suggest separate commits with guidance on how to stage them
+- Never include `Co-Authored-By` or other attribution trailers in the commit message
 
 ### 4. Present the Message
 
